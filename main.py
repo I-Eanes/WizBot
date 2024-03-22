@@ -17,6 +17,11 @@ async def on_message(message):
     # This part is to prevent the bot from responding to itself, that just sounds like a recursive nightmare.
     if message.author == bot.user:
         return
+    elif message.content == '!Spellbook':
+        with open("spells.txt", "r") as fp:
+            open_lines = fp.readlines()
+            for lines in open_lines:
+                await message.channel.send(lines)
     else:
         await message.channel.send("I cast FUCK YOU")
 
