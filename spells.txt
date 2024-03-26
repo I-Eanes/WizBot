@@ -1,14 +1,14 @@
-# 6 Attack, 3 Healing, 3 Special
+#change to a sqlite file :<
 spellID,lvlMin,spellName,type,effectiveness,desc,extra,gifLoc
 001,0,Fireball,dmg,1,A playful ball of fire to launch at your foes.,Null,
-002,,Temp1,dmg,2,,
-003,,Temp2,dmg,3,,
-004,,Temp3,dmg,4,,
-005,,Temp4,dmg,5,,
-006,,Fists of Fury,dmg,6,,
+002,1,,dmg,2,,,
+003,4,,dmg,3,,,
+004,6,,dmg,4,,,
+005,8,,dmg,5,,,
+006,10,Fists of Fury,dmg,6,A spiritual being beats the shit out of your opponent,Null,
 007,0,Minor Healing,reg,1,A minor healing spell to help you scrape by death's grasp.,Null
-008,,,reg,2
-009,,,reg,3
-010,,,spc,,
-011,,,spc,,
-012,,,spc,,
+008,2,,reg,2
+009,7,Hand of God,reg,3,
+010,3,Drop,spc,1,"Stop I could've dropped my spell!" - Stops your opponent's prepared spell,drp,
+011,5,Lights Out,spc,1,"Wait, don't hit the light" - Blinds your opponent for 3 turns,bld,
+012,9,Double Trouble,spc,1,"" - Doubles your next attack value,dtr,

@@ -1,0 +1,3 @@
+user,guild,lvl,slot1,slot2,hp
+din0v0id,The Wizarding Zone,0,001,007,10
+tankoushoku,The Wizarding Zone,0,001,007,10
