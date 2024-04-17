@@ -1,14 +1,14 @@
 #change to a sqlite file :<
-spellID,lvlMin,spellName,type,effectiveness,desc,extra,gifLoc
-001,0,Fireball,dmg,1,A playful ball of fire to launch at your foes.,Null,
-002,1,,dmg,2,,,
-003,4,,dmg,3,,,
-004,6,,dmg,4,,,
-005,8,,dmg,5,,,
-006,10,Fists of Fury,dmg,6,A spiritual being beats the shit out of your opponent,Null,
-007,0,Minor Healing,reg,1,A minor healing spell to help you scrape by death's grasp.,Null
-008,2,,reg,2
-009,7,Hand of God,reg,3,
-010,3,Drop,spc,1,"Stop I could've dropped my spell!" - Stops your opponent's prepared spell,drp,
-011,5,Lights Out,spc,1,"Wait, don't hit the light" - Blinds your opponent for 3 turns,bld,
-012,9,Double Trouble,spc,1,"" - Doubles your next attack value,dtr,
+spellID,lvlMin,spellName, desc
+101,0,Fireball,A playful ball of fire to launch at your foes.
+102,1,NULL
+103,4,NULL
+104,6,NULL
+105,8,NULL
+106,10,Fists of Fury,dmg,A spiritual being beats the shit out of your opponent.
+201,0,Minor Healing,A minor healing spell to help you scrape by death's grasp.
+202,2,NULL,reg,2
+203,7,Hand of God,reg,3,
+301,3,Drop,spc,1,"Stop I could've dropped my spell!" - Stops your opponent's prepared spell
+302,5,Lights Out,spc,1,"Wait, don't hit the light" - Blinds your opponent for 3 turns
+303,9,Double Trouble,spc,1,"" - Doubles your next attack value
