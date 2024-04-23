@@ -47,6 +47,9 @@ async def hello(ctx):
         requests.post(f'{API}user/new/{ctx.author.id}')
         await ctx.send("Welcome to the Wizbot!")
 
+@bot.command()
+async def test(ctx):
+    await ctx.send("Tis' I Wizbot, I am definitely fully sentient because this not scripted at all!")
 
 # Run bot with token
 bot.run("MTIxMDMxNjk0NDk5Mzk0NzY3OA.GIZ0hO.l0aef7Z4i3r6MHOmsqy0QCn7p3ok-t7hlwhLBs")
